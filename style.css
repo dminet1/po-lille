@@ -1,0 +1,28 @@
+body {background-color:grey}
+h1,span {background-color:orange}
+h1 {color:white}
+div {text-align:center}
+a {color:red;font-size:30px}
+.cldiv {border-top:10px solid yellow; border-left:10px solid yellow;
+border-right:5px dashed green;border-bottom:10px dashed green;
+width:100px;height:50px;
+padding:20px;
+margin-left:50px;
+background-image:url("../img/sky.jpg")}
+.clform {
+    margin-left: 50%;
+    padding: 6px;
+    border: 3px dotted orange;
+}
+form {text-align: left;}
+#bouton {
+  background-color: green;
+  color: white;
+  margin-left:50%;
+}
+input:invalid{
+  border:1px solid red;
+}
+input:valid{
+  border:1px solid green;
+}
